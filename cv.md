@@ -10,7 +10,7 @@
 
 **Contacts:** 
 
-* +380509154644
+* +79591734526
 
 * [VK](https://vk.com/hellcat_00) 
 
