@@ -1,6 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:wght@300;400;600&display=swap');
+
+/* font-family: 'Aboreto', cursive; */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
+  list-style-type: none;
+}
+body {
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+main {
+  max-width: 1366px;
+  padding: 0 80px;
+  margin: 0 auto;
+  display: flex;
+}
+.left-column {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  background: rgb(185, 58, 58);
+  flex-direction: column;
+  padding: 0 30px;
+  color: #fff;
+  text-align: center;
+}
+.left-column img {
+  width: 100%;
+  border-radius: 15%;
+  height: auto;
+  padding: 20px 0;
+}
+.right-column {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background: rgb(42, 24, 141);
+  color: #fff;
+  line-height: 50px;
+}
+h1, h2, h3, h4 {
+  font-family: 'Aboreto', cursive;
+}
+.contact-h3 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+.contact a {
+  color: #fff;
 }
